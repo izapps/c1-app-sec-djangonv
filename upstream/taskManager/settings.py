@@ -28,7 +28,7 @@ SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
 DEBUG = False
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['demoapp2-3-127-196-237.nip.io']
+ALLOWED_HOSTS = ['*.nip.io', 'localhost', '127.0.0.1', '[::1]']
 
 # Application definition
 
