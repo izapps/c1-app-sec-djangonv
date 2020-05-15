@@ -26,9 +26,9 @@ SECRET_KEY = '0yxzudryd8)-%)(fz&7q-!v&cq1u6vbfoc4u7@u_&i)b@4eh^q'
 # A5: Security Misconfiguration
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = ['*.nip.io', 'localhost', '127.0.0.1', '[::1]']
+ALLOWED_HOSTS = ['.nip.io', 'localhost', '127.0.0.1', '[::1]']
 
 # Application definition
 
